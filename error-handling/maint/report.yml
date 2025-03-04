@@ -1,5 +1,5 @@
 ---
-- hosts: windows
+- hosts: webserver1
   tasks:
     - name: download transaction_list
       win_get_url:
